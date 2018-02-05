@@ -1,0 +1,5 @@
+Spiros,0,5000
+Makis,1,3760
+Albanakis,1,2611
+Makis,2,2500
+Takis,1,2405
