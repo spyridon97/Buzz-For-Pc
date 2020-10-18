@@ -1,21 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package gameModes;
 
 import org.junit.Test;
 
 /**
- *
  * @author Manos
  */
 public class GameModeTest {
-    
+
     public GameModeTest() {
     }
-    
+
     /**
      * Test of getGameModeNames method, of class GameMode.
      */
@@ -103,5 +97,5 @@ public class GameModeTest {
         //τα οποία δεν μπορούν να δημιουργηθούν και να χρησιμοποιηθούν στα tests
         //επομένως θεωρούμε ότι περνάνε όλα τα τεστ
     }
-    
+
 }

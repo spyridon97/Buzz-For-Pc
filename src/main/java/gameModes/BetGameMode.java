@@ -1,22 +1,17 @@
 package gameModes;
 
-import java.awt.CardLayout;
-import java.awt.FlowLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.ArrayList;
-
-import javax.swing.JPanel;
-
 import game.Player;
 import internationalization.Language;
-
-import javax.swing.SwingUtilities;
-
 import questions.Question;
 import userInterface.MainFrame;
 import userInterface.components.GameButton;
 import userInterface.components.GameLabel;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 /**
  * @author Manolis, Spiros

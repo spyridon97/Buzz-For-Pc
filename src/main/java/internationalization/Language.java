@@ -17,7 +17,7 @@ public class Language {
      * default constructor to Greek
      */
     public Language() {
-        setToGreek();
+        setToEnglish();
     }
 
     /**

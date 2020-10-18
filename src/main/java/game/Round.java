@@ -1,11 +1,11 @@
 package game;
 
-import java.util.ArrayList;
-import java.util.Collections;
-
 import gameModes.GameMode;
 import questions.Question;
 import questions.Questions;
+
+import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * @author Manolis, Spiros

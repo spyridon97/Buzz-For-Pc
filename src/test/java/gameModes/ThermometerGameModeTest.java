@@ -1,20 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package gameModes;
+
 import org.junit.Test;
 
 /**
- *
  * @author Manos
  */
 public class ThermometerGameModeTest {
-    
+
     public ThermometerGameModeTest() {
     }
-    
+
     /**
      * Test of getAdditionalGUI method, of class ThermometerGameMode.
      */
@@ -53,7 +48,7 @@ public class ThermometerGameModeTest {
      */
     @Test
     public void testHasEnded() {
-         //Οι κλάσεις των GameMode επειδή έχουν μια μήξη απο κώδικα GUI και όχι,
+        //Οι κλάσεις των GameMode επειδή έχουν μια μήξη απο κώδικα GUI και όχι,
         //και απαιτούν και συνυπαρχουν με αντικείμενα απο το πακέτο userInterface
         //τα οποία δεν μπορούν να δημιουργηθούν και να χρησιμοποιηθούν στα tests
         //επομένως θεωρούμε ότι περνάνε όλα τα τεστ
@@ -69,5 +64,5 @@ public class ThermometerGameModeTest {
         //τα οποία δεν μπορούν να δημιουργηθούν και να χρησιμοποιηθούν στα tests
         //επομένως θεωρούμε ότι περνάνε όλα τα τεστ
     }
-    
+
 }

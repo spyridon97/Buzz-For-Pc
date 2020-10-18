@@ -7,13 +7,12 @@ package questions;
 
 import internationalization.Language;
 
-import java.awt.Image;
+import javax.swing.*;
+import java.awt.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
-import javax.swing.ImageIcon;
-import javax.swing.JOptionPane;
 
 /**
  * @author Manolis, Spiros
@@ -70,7 +69,6 @@ public class Questions {
             if (!questionSource.exists()) {
                 JOptionPane.showMessageDialog(null, language.getMessage("questionFileErrorText"), language.getMessage("fileError"), JOptionPane.ERROR_MESSAGE);
                 System.exit(1);
-
             }
 
             Scanner reader = new Scanner(questionSource, "UTF-8");
@@ -125,5 +123,4 @@ public class Questions {
             return "";
         }
     }
-
 }

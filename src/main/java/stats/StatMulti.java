@@ -37,9 +37,6 @@ public class StatMulti implements Comparable<StatMulti> {
     }
 
     @Override
-    /**
-     * used for sorting the the StatMulti ArrayList, sort descending by wins
-     */
     public int compareTo(StatMulti o) {
         return Integer.compare(o.getWins(), getWins());
     }

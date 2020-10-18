@@ -5,19 +5,14 @@
  */
 package stats;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
-
 import game.Player;
 import internationalization.Language;
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
 
 /**
  * @author Manolis, Spiros

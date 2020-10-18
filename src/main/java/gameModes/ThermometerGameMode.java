@@ -1,15 +1,14 @@
 package gameModes;
 
-import java.awt.FlowLayout;
-import java.util.ArrayList;
-import java.util.Arrays;
-
-import javax.swing.JPanel;
-
 import game.Player;
 import questions.Question;
 import userInterface.MainFrame;
 import userInterface.components.GameLabel;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * @author Manolis, Spiros

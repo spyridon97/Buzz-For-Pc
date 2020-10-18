@@ -1,18 +1,14 @@
 package gameModes;
 
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.ArrayList;
-
-import javax.swing.JPanel;
-import javax.swing.JProgressBar;
-import javax.swing.Timer;
-
 import game.Player;
 import questions.Question;
 import userInterface.MainFrame;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 /**
  * @author Manolis, Spiros

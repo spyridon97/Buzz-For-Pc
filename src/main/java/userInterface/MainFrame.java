@@ -1,19 +1,13 @@
 package userInterface;
 
-import java.awt.CardLayout;
-import java.awt.Dimension;
-import java.awt.Toolkit;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.UIManager;
-
 import game.Round;
 import gameModes.GameMode;
 import internationalization.Language;
-import questions.Question;
 import questions.Questions;
 import stats.Stats;
+
+import javax.swing.*;
+import java.awt.*;
 
 /**
  * @author Manolis, Spiros

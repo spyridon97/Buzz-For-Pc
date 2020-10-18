@@ -1,19 +1,14 @@
 package userInterface;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.ImageIcon;
-import javax.swing.JPanel;
-import javax.swing.SwingConstants;
-
 import gameModes.GameMode;
 import internationalization.Language;
 import userInterface.components.GameButton;
 import userInterface.components.GameLabel;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  * @author Manolis, Spiros
@@ -51,7 +46,7 @@ public class MenuPanel extends JPanel {
         JPanel buttons = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
         buttons.setPreferredSize(new Dimension(200, 180));
 
-        GameButton start = new GameButton("Νέο Παιχνίδι", 200, 60);
+        GameButton start = new GameButton(main.getLanguage().getMessage("start"), 200, 60);
 
         start.addActionListener(new ActionListener() {
             @Override
@@ -62,7 +57,7 @@ public class MenuPanel extends JPanel {
 
         buttons.add(start);
 
-        GameButton stats = new GameButton("Στατιστικά", 200, 60);
+        GameButton stats = new GameButton(main.getLanguage().getMessage("statsButton"), 200, 60);
 
         stats.addActionListener(new ActionListener() {
             @Override
@@ -73,7 +68,7 @@ public class MenuPanel extends JPanel {
 
         buttons.add(stats);
 
-        GameButton exit = new GameButton("Έξοδος", 200, 60);
+        GameButton exit = new GameButton(main.getLanguage().getMessage("exit"), 200, 60);
 
         exit.addActionListener(new ActionListener() {
             @Override

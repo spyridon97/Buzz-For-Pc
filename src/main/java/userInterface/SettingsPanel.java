@@ -1,41 +1,16 @@
 package userInterface;
 
-import java.awt.CardLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.HierarchyEvent;
-import java.awt.event.HierarchyListener;
-import java.awt.event.KeyEvent;
-import java.util.ArrayList;
-import java.util.Arrays;
-
-import javax.swing.ButtonGroup;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JSplitPane;
-
 import game.Player;
 import game.Round;
-import gameModes.BetGameMode;
-import gameModes.CorrectAnswerGameMode;
-import gameModes.FastAnswerGameMode;
-import gameModes.GameMode;
-import gameModes.StopTimerGameMode;
-import gameModes.ThermometerGameMode;
+import gameModes.*;
 import internationalization.Language;
+import userInterface.components.*;
 
-import javax.swing.BorderFactory;
-import javax.swing.SwingUtilities;
-
-import userInterface.components.GameButton;
-import userInterface.components.GameLabel;
-import userInterface.components.GameRadioButton;
-import userInterface.components.GameSplitPane;
-import userInterface.components.GameTextArea;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * @author Manolis, Spiros
@@ -100,24 +75,26 @@ public class SettingsPanel extends JPanel implements HierarchyListener {
         this.setLayout(new FlowLayout(FlowLayout.CENTER, margin, margin));
         this.addHierarchyListener(this);
 
-        onePlayerButton = new GameButton("Ένας παίκτης");
+        Language language = main.getLanguage();
+
+        onePlayerButton = new GameButton(language.getMessage("onePlayerButton"));
 
         onePlayerButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent evt) {
                 isOnePlayer = true;
-                cardLayout.show(cardPanel, "one player");
+                cardLayout.show(cardPanel, main.getLanguage().getMessage("onePlayerButton"));
                 updateDescriptionText();
             }
         });
 
-        twoPlayerButton = new GameButton("Δύο παίκτες");
+        twoPlayerButton = new GameButton(language.getMessage("twoPlayerButton"));
 
         twoPlayerButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent evt) {
                 isOnePlayer = false;
-                cardLayout.show(cardPanel, "two players");
+                cardLayout.show(cardPanel, language.getMessage("twoPlayerButton"));
                 updateDescriptionText();
             }
         });
@@ -139,7 +116,7 @@ public class SettingsPanel extends JPanel implements HierarchyListener {
 
         onePlayerPanel.setLayout(new FlowLayout(FlowLayout.LEFT, 10, 15));
 
-        onePlayerNameLabel = new GameLabel("Όνομα παίκτη", 300);
+        onePlayerNameLabel = new GameLabel(language.getMessage("onePlayerNameLabel"), 300);
         onePlayerPanel.add(onePlayerNameLabel);
 
         GameTextArea onePlayerName = new GameTextArea(320);
@@ -186,7 +163,7 @@ public class SettingsPanel extends JPanel implements HierarchyListener {
             }
         });
 
-        onePlayerSelectGameMode = new GameLabel("Επιλογή τύπου παιχνιδιού", 300);
+        onePlayerSelectGameMode = new GameLabel(language.getMessage("playerSelectGameMode"), 300);
         onePlayerPanel.add(onePlayerSelectGameMode);
 
         onePlayerPanel.add(onePlayerGameModeLeft);
@@ -195,7 +172,7 @@ public class SettingsPanel extends JPanel implements HierarchyListener {
 
         onePlayerPanel.add(new GameLabel("", 100));
 
-        onePlayerSelectBindings = new GameLabel("Επιλογή κουμπιών", 300);
+        onePlayerSelectBindings = new GameLabel(language.getMessage("playerSelectBindings"), 300);
         onePlayerPanel.add(onePlayerSelectBindings);
 
         onPlayerKeybindButtons = new GameRadioButton[3];
@@ -224,13 +201,13 @@ public class SettingsPanel extends JPanel implements HierarchyListener {
         onePlayerPanel.add(new GameLabel("", 300));
         onePlayerPanel.add(onPlayerKeybindButtons[2]);
 
-        cardPanel.add(onePlayerPanel, "one player");
+        cardPanel.add(onePlayerPanel, language.getMessage("onePlayerButton"));
 
         JPanel twoPlayerPanel = new JPanel();
 
         twoPlayerPanel.setLayout(new FlowLayout(FlowLayout.LEFT, 10, 15));
 
-        twoPlayerFirstNameLabel = new GameLabel("Όνομα πρώτου παίκτη", 300);
+        twoPlayerFirstNameLabel = new GameLabel(language.getMessage("twoPlayerFirstNameLabel"), 300);
         twoPlayerPanel.add(twoPlayerFirstNameLabel);
 
         GameTextArea twoPlayerFirstName = new GameTextArea(320);
@@ -240,7 +217,7 @@ public class SettingsPanel extends JPanel implements HierarchyListener {
 
         twoPlayerPanel.add(new GameLabel("", 100));
 
-        twoPlayerSecondNameLabel = new GameLabel("Όνομα δεύτερου παίκτη", 300);
+        twoPlayerSecondNameLabel = new GameLabel(language.getMessage("twoPlayerSecondNameLabel"), 300);
         twoPlayerPanel.add(twoPlayerSecondNameLabel);
 
         GameTextArea twoPlayerSecondName = new GameTextArea(320);
@@ -287,7 +264,7 @@ public class SettingsPanel extends JPanel implements HierarchyListener {
             }
         });
 
-        twoPlayerSelectGameMode = new GameLabel("Επιλογή τύπου παιχνιδιού", 300);
+        twoPlayerSelectGameMode = new GameLabel(language.getMessage("playerSelectGameMode"), 300);
         twoPlayerPanel.add(twoPlayerSelectGameMode);
 
         twoPlayerPanel.add(twoPlayerGameModeLeft);
@@ -296,7 +273,7 @@ public class SettingsPanel extends JPanel implements HierarchyListener {
 
         twoPlayerPanel.add(new GameLabel("", 100));
 
-        twoPlayerSelectBindings = new GameLabel("Επιλογή κουμπιών", 300);
+        twoPlayerSelectBindings = new GameLabel(language.getMessage("playerSelectBindings"), 300);
         twoPlayerPanel.add(twoPlayerSelectBindings);
 
         twoPlayerKeybindButtons1 = new GameRadioButton[3];
@@ -343,12 +320,12 @@ public class SettingsPanel extends JPanel implements HierarchyListener {
         twoPlayerPanel.add(twoPlayerKeybindButtons1[2]);
         twoPlayerPanel.add(twoPlayerKeybindButtons2[2]);
 
-        cardPanel.add(twoPlayerPanel, "two players");
+        cardPanel.add(twoPlayerPanel, language.getMessage("twoPlayerButton"));
 
         JPanel descriptionPanel = new JPanel();
         descriptionPanel.setPreferredSize(new Dimension(main.width - margin * 2, 120));
 
-        gameModeDescription = new GameLabel("Περιγραφή παιχνιδιού", main.width - margin * 2, 25);
+        gameModeDescription = new GameLabel(language.getMessage("disc"), main.width - margin * 2, 25);
         descriptionPanel.add(gameModeDescription);
 
         descriptionDisplay = new GameTextArea();
@@ -369,7 +346,7 @@ public class SettingsPanel extends JPanel implements HierarchyListener {
 
         this.add(settingsArea);
 
-        continueToGame = new GameButton("Έναρξη παιχνιδιού", main.width - margin * 2, 45);
+        continueToGame = new GameButton(main.getLanguage().getMessage("continueToGame"), main.width - margin * 2, 45);
 
         continueToGame.addActionListener(new ActionListener() {
             @Override

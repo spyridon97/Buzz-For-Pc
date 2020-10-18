@@ -1,33 +1,20 @@
 package userInterface;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.Font;
-import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.HierarchyEvent;
-import java.awt.event.HierarchyListener;
-import java.util.ArrayList;
-import java.util.Arrays;
-
-import javax.swing.AbstractAction;
-import javax.swing.ComponentInputMap;
-import javax.swing.ImageIcon;
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-import javax.swing.KeyStroke;
-import javax.swing.SwingConstants;
-import javax.swing.Timer;
-
 import game.Player;
 import game.Round;
 import questions.Question;
 import userInterface.components.GameAnswerButton;
 import userInterface.components.GameLabel;
 import userInterface.components.GameTextArea;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.HierarchyEvent;
+import java.awt.event.HierarchyListener;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * @author Manolis, Spiros

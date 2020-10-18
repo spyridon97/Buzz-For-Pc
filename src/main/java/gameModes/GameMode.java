@@ -1,14 +1,13 @@
 package gameModes;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
-import javax.swing.JPanel;
-
 import game.Player;
 import internationalization.Language;
 import questions.Question;
 import userInterface.MainFrame;
+
+import javax.swing.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * @author Manolis, Spiros

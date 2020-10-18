@@ -1,12 +1,10 @@
 package userInterface;
 
-import java.awt.Component;
-import java.awt.KeyboardFocusManager;
+import javax.swing.*;
+import java.awt.*;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-
-import javax.swing.KeyStroke;
 
 /**
  * @author Manolis, Spiros

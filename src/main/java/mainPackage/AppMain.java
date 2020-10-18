@@ -16,5 +16,4 @@ public class AppMain {
         new MainFrame();
 
     }
-
 }
