@@ -1,16 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package questions;
 
 import internationalization.Language;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -62,24 +58,25 @@ public class Questions {
      */
     public void read() {
         questions.clear();
-
         try {
-            File questionSource = new File(language.getMessage("questionsFileName"));
 
-            if (!questionSource.exists()) {
+            InputStream questionsStream = getClass().getResourceAsStream(language.getMessage("questionsFileName"));
+
+            if (questionsStream == null) {
                 JOptionPane.showMessageDialog(null, language.getMessage("questionFileErrorText"), language.getMessage("fileError"), JOptionPane.ERROR_MESSAGE);
                 System.exit(1);
             }
 
-            Scanner reader = new Scanner(questionSource, "UTF-8");
+            Scanner reader = new Scanner(questionsStream, "UTF-8");
 
             while (reader.hasNextLine()) {
                 String question = readLine(reader);
-                String imageDirectory = readLine(reader);
+                String imageURL = readLine(reader);
                 Image questionImage = null;
 
-                if (!imageDirectory.equalsIgnoreCase("null")) {
-                    questionImage = new ImageIcon("Photos of questions/" + imageDirectory).getImage();
+                if (!imageURL.equalsIgnoreCase("null")) {
+                    InputStream imageStream = getClass().getResourceAsStream(imageURL);
+                    questionImage = new ImageIcon(ImageIO.read(imageStream)).getImage();
                 }
 
                 String questionType = readLine(reader);
@@ -102,7 +99,7 @@ public class Questions {
             }
 
             reader.close();
-        } catch (FileNotFoundException exc) {
+        } catch (IOException exc) {
             exc.printStackTrace();
         }
     }

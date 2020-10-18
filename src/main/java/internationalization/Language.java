@@ -1,5 +1,9 @@
 package internationalization;
 
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
@@ -32,6 +36,26 @@ public class Language {
      */
     public void setToEnglish() {
         this.messages = ResourceBundle.getBundle("internationalization.MessagesBundle", englishLocale);
+    }
+
+    public ImageIcon getGreekFlag() {
+        InputStream imageStream = getClass().getResourceAsStream("FlagsBundle_el_GR.png");
+        try {
+            return new ImageIcon(ImageIO.read(imageStream));
+        } catch (IOException e) {
+            e.printStackTrace();
+            return new ImageIcon();
+        }
+    }
+
+    public ImageIcon getUSAFlag() {
+        InputStream imageStream = getClass().getResourceAsStream("FlagsBundle_en_US.png");
+        try {
+            return new ImageIcon(ImageIO.read(imageStream));
+        } catch (IOException e) {
+            e.printStackTrace();
+            return new ImageIcon();
+        }
     }
 
     /**

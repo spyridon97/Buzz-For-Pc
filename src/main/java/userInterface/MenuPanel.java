@@ -84,8 +84,8 @@ public class MenuPanel extends JPanel {
         top.setPreferredSize(new Dimension(main.width, 50));
         top.setBackground(Color.yellow);
 
-        GameButton greek = new GameButton(new ImageIcon("flag_en.png"));
-        greek.addActionListener(new ActionListener() {
+        GameButton english = new GameButton(main.getLanguage().getUSAFlag());
+        english.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Language language = main.getLanguage();
@@ -98,10 +98,10 @@ public class MenuPanel extends JPanel {
                 exit.setText(main.getLanguage().getMessage("exit"));
             }
         });
-        top.add(greek);
+        top.add(english);
 
-        GameButton english = new GameButton(new ImageIcon("flag_gr.png"));
-        english.addActionListener(new ActionListener() {
+        GameButton greek = new GameButton(main.getLanguage().getGreekFlag());
+        greek.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Language language = main.getLanguage();
@@ -114,11 +114,10 @@ public class MenuPanel extends JPanel {
                 exit.setText(main.getLanguage().getMessage("exit"));
             }
         });
-        top.add(english);
+        top.add(greek);
 
         this.add(top);
         this.add(nameLabel);
         this.add(buttons);
     }
-
 }
