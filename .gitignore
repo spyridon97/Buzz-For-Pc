@@ -4,3 +4,6 @@ out/
 javadoc/
 build/
 .gradle
+gradle
+gradlew
+gradlew.bat
