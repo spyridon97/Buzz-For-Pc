@@ -9,10 +9,7 @@ import game.Player;
 import internationalization.Language;
 
 import javax.swing.*;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -64,7 +61,7 @@ public class Stats {
         statsSingle.clear();
 
         try {
-            File statsSingleFile = new File(this.getClass().getResource("statsSingle.txt").getPath());
+            File statsSingleFile = new File("Statistics/statsSingle.txt");
 
             if (!statsSingleFile.exists()) {
                 JOptionPane.showMessageDialog(null, language.getMessage("statsFileErrorTextSingle"), language.getMessage("fileError"), JOptionPane.ERROR_MESSAGE);
@@ -89,7 +86,6 @@ public class Stats {
         } catch (FileNotFoundException exc) {
             exc.printStackTrace();
         }
-
     }
 
     /**
@@ -103,7 +99,7 @@ public class Stats {
         statsMulti.clear();
 
         try {
-            File statsMultiFile = new File(this.getClass().getResource("statsMulti.txt").getPath());
+            File statsMultiFile = new File("Statistics/statsMulti.txt");
 
             if (!statsMultiFile.exists()) {
                 JOptionPane.showMessageDialog(null, language.getMessage("statsFileErrorTextMulti"), language.getMessage("fileError"), JOptionPane.ERROR_MESSAGE);
@@ -128,7 +124,6 @@ public class Stats {
         } catch (FileNotFoundException exc) {
             exc.printStackTrace();
         }
-
     }
 
     /**
@@ -213,7 +208,7 @@ public class Stats {
     private void writeStatsSingle() {
         PrintWriter StatsSingleFile;
         try {
-            StatsSingleFile = new PrintWriter(new File(this.getClass().getResource("statsSingle.txt").getPath()));
+            StatsSingleFile = new PrintWriter(new FileWriter("Statistics/statsSingle.txt"));
             for (StatSingle statSingle : statsSingle) {
                 StatsSingleFile.println(statSingle.getName() + "," + statSingle.getGameMode() + "," + statSingle.getPoints());
             }
@@ -231,7 +226,7 @@ public class Stats {
     private void writeStatsMulti() {
         PrintWriter StatsMultiFile;
         try {
-            StatsMultiFile = new PrintWriter(new File(this.getClass().getResource("statsMulti.txt").getPath()));
+            StatsMultiFile = new PrintWriter(new FileWriter("Statistics/statsMulti.txt"));
             for (StatMulti statMulti : statsMulti) {
                 StatsMultiFile.println(statMulti.getName() + "," + statMulti.getWins());
             }
