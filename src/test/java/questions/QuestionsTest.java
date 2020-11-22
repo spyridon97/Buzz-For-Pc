@@ -22,7 +22,7 @@ public class QuestionsTest {
         Language language = new Language();
         Questions questions = new Questions(language);
 
-        if (!questions.getQuestion(1).getQuestion().equals("Ποια είναι η μεγαλύτερη σε έκταση ήπειρος;")) {
+        if (!questions.getQuestion(1).getQuestion().equals("Which is the largest continent?")) {
             fail("Questions.getQuestion doesn't return correct question or file isn't read correctly!");
         }
     }

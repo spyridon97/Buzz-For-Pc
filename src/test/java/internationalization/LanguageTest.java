@@ -51,7 +51,7 @@ public class LanguageTest {
         String message = "exit";
         Language instance = new Language();
 
-        String expResult = "Έξοδος";
+        String expResult = "Exit";
         String result = instance.getMessage(message);
 
         assertEquals(expResult, result);
