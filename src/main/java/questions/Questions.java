@@ -69,10 +69,17 @@ public class Questions {
 
             Scanner reader = new Scanner(questionsStream, "UTF-8");
 
+            int counter = 0;
             while (reader.hasNextLine()) {
                 String question = readLine(reader);
                 String imageURL = readLine(reader);
                 Image questionImage = null;
+
+                // this is added to remove the starting special character from the file
+                if (counter == 0) {
+                    question = question.substring(1);
+                    counter++;
+                }
 
                 if (!imageURL.equalsIgnoreCase("null")) {
                     InputStream imageStream = getClass().getResourceAsStream(imageURL);

@@ -214,3 +214,494 @@
     - {name: position, value: '[x=1821,y=462]'}
     name: 'lbl: 1'
     used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Sublimate}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '1'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Sublimate}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Sublimate}
+    - {name: cText, value: Sublimate}
+    - {name: layoutData.y, value: '1.0'}
+    - {name: layoutData.x, value: '0.0'}
+    - {name: accessibleContext.accessibleName, value: Sublimate}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Sublimate}
+    - {name: position, value: '[x=1608,y=680]'}
+    name: Sublimate
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: America}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '1'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: America}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: America}
+    - {name: cText, value: America}
+    - {name: layoutData.y, value: '1.0'}
+    - {name: layoutData.x, value: '0.0'}
+    - {name: accessibleContext.accessibleName, value: America}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: America}
+    - {name: position, value: '[x=1608,y=680]'}
+    name: America
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: type, value: userInterface.components.GameButton}
+    - {method: equals, name: indexOfType, value: '0'}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameButton}
+    - {name: type, value: userInterface.components.GameButton}
+    - {name: indexOfType, value: '0'}
+    - {name: enabled, value: 'true'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: component.class.name, value: userInterface.components.GameButton}
+    - {name: size, value: '[width=65,height=35]'}
+    - {name: position, value: '[x=2498,y=445]'}
+    name: userInterface.components.GameButton_0
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Asia}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '0'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Asia}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Asia}
+    - {name: cText, value: Asia}
+    - {name: layoutData.y, value: '0.0'}
+    - {name: layoutData.x, value: '0.0'}
+    - {name: accessibleContext.accessibleName, value: Asia}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Asia}
+    - {name: position, value: '[x=1016,y=608]'}
+    name: Asia
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: France}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '2'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: France}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: France}
+    - {name: cText, value: France}
+    - {name: layoutData.y, value: '0.0'}
+    - {name: layoutData.x, value: '1.0'}
+    - {name: accessibleContext.accessibleName, value: France}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: France}
+    - {name: position, value: '[x=1016,y=783]'}
+    name: France
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Euro}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '3'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Euro}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Euro}
+    - {name: cText, value: Euro}
+    - {name: layoutData.y, value: '1.0'}
+    - {name: layoutData.x, value: '1.0'}
+    - {name: accessibleContext.accessibleName, value: Euro}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Euro}
+    - {name: position, value: '[x=1301,y=783]'}
+    name: Euro
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Portuguese}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '0'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Portuguese}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Portuguese}
+    - {name: cText, value: Portuguese}
+    - {name: layoutData.y, value: '0.0'}
+    - {name: layoutData.x, value: '0.0'}
+    - {name: accessibleContext.accessibleName, value: Portuguese}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Portuguese}
+    - {name: position, value: '[x=1016,y=608]'}
+    name: Portuguese
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Turin}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '2'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Turin}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Turin}
+    - {name: cText, value: Turin}
+    - {name: layoutData.y, value: '0.0'}
+    - {name: layoutData.x, value: '1.0'}
+    - {name: accessibleContext.accessibleName, value: Turin}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Turin}
+    - {name: position, value: '[x=1016,y=783]'}
+    name: Turin
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Dragon}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '1'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Dragon}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Dragon}
+    - {name: cText, value: Dragon}
+    - {name: layoutData.y, value: '1.0'}
+    - {name: layoutData.x, value: '0.0'}
+    - {name: accessibleContext.accessibleName, value: Dragon}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Dragon}
+    - {name: position, value: '[x=1301,y=608]'}
+    name: Dragon
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: The front}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '3'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: The front}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: The front}
+    - {name: cText, value: The front}
+    - {name: layoutData.y, value: '1.0'}
+    - {name: layoutData.x, value: '1.0'}
+    - {name: accessibleContext.accessibleName, value: The front}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: The front}
+    - {name: position, value: '[x=1301,y=783]'}
+    name: The front
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Five}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '2'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Five}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Five}
+    - {name: cText, value: Five}
+    - {name: layoutData.y, value: '0.0'}
+    - {name: layoutData.x, value: '1.0'}
+    - {name: accessibleContext.accessibleName, value: Five}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Five}
+    - {name: position, value: '[x=1016,y=783]'}
+    name: Five
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Handel}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '0'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Handel}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Handel}
+    - {name: cText, value: Handel}
+    - {name: layoutData.y, value: '0.0'}
+    - {name: layoutData.x, value: '0.0'}
+    - {name: accessibleContext.accessibleName, value: Handel}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Handel}
+    - {name: position, value: '[x=1016,y=608]'}
+    name: Handel
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Seoul}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '1'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Seoul}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Seoul}
+    - {name: cText, value: Seoul}
+    - {name: layoutData.y, value: '1.0'}
+    - {name: layoutData.x, value: '0.0'}
+    - {name: accessibleContext.accessibleName, value: Seoul}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Seoul}
+    - {name: position, value: '[x=1301,y=608]'}
+    name: Seoul
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: In vacuum}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '1'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: In vacuum}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: In vacuum}
+    - {name: cText, value: In vacuum}
+    - {name: layoutData.y, value: '1.0'}
+    - {name: layoutData.x, value: '0.0'}
+    - {name: accessibleContext.accessibleName, value: In vacuum}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: In vacuum}
+    - {name: position, value: '[x=1301,y=608]'}
+    name: In vacuum
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Pigs}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '2'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Pigs}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Pigs}
+    - {name: cText, value: Pigs}
+    - {name: layoutData.y, value: '0.0'}
+    - {name: layoutData.x, value: '1.0'}
+    - {name: accessibleContext.accessibleName, value: Pigs}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Pigs}
+    - {name: position, value: '[x=1016,y=783]'}
+    name: Pigs
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Pythagoras}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '0'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Pythagoras}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Pythagoras}
+    - {name: cText, value: Pythagoras}
+    - {name: layoutData.y, value: '0.0'}
+    - {name: layoutData.x, value: '0.0'}
+    - {name: accessibleContext.accessibleName, value: Pythagoras}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Pythagoras}
+    - {name: position, value: '[x=1016,y=608]'}
+    name: Pythagoras
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Arianism}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '3'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Arianism}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Arianism}
+    - {name: cText, value: Arianism}
+    - {name: layoutData.y, value: '1.0'}
+    - {name: layoutData.x, value: '1.0'}
+    - {name: accessibleContext.accessibleName, value: Arianism}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Arianism}
+    - {name: position, value: '[x=1301,y=783]'}
+    name: Arianism
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Cyprus}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '2'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Cyprus}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Cyprus}
+    - {name: cText, value: Cyprus}
+    - {name: layoutData.y, value: '0.0'}
+    - {name: layoutData.x, value: '1.0'}
+    - {name: accessibleContext.accessibleName, value: Cyprus}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Cyprus}
+    - {name: position, value: '[x=1016,y=783]'}
+    name: Cyprus
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: Mercury}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '0'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: Mercury}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: Mercury}
+    - {name: cText, value: Mercury}
+    - {name: layoutData.y, value: '0.0'}
+    - {name: layoutData.x, value: '0.0'}
+    - {name: accessibleContext.accessibleName, value: Mercury}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: Mercury}
+    - {name: position, value: '[x=1016,y=608]'}
+    name: Mercury
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: '2007'}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '0'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: '2007'}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: '2007'}
+    - {name: cText, value: '2007'}
+    - {name: layoutData.y, value: '0.0'}
+    - {name: layoutData.x, value: '0.0'}
+    - {name: accessibleContext.accessibleName, value: '2007'}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: '2007'}
+    - {name: position, value: '[x=1016,y=608]'}
+    name: '2007'
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: '1912'}
+    - {method: equals, name: type, value: userInterface.components.GameAnswerButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameAnswerButton}
+    - {name: type, value: userInterface.components.GameAnswerButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '2'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: '1912'}
+    - {name: component.class.name, value: userInterface.components.GameAnswerButton}
+    - {name: buttonText, value: '1912'}
+    - {name: cText, value: '1912'}
+    - {name: layoutData.y, value: '0.0'}
+    - {name: layoutData.x, value: '1.0'}
+    - {name: accessibleContext.accessibleName, value: '1912'}
+    - {name: size, value: '[width=275,height=165]'}
+    - {name: accessibleName, value: '1912'}
+    - {name: position, value: '[x=1016,y=783]'}
+    name: '1912'
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: fieldName, value: questionDisplay}
+    - {method: equals, name: type, value: userInterface.components.GameTextArea}
+    generalProperties:
+    - {name: fieldName, value: questionDisplay}
+    - {name: component.class.simpleName, value: GameTextArea}
+    - {name: type, value: userInterface.components.GameTextArea}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '0'}
+    - {name: instanceOf, value: javax.swing.JTextArea}
+    - {name: component.class.name, value: userInterface.components.GameTextArea}
+    - {name: cText, value: "﻿How is called the change of a solid into a gas?"}
+    - {name: size, value: '[width=760,height=200]'}
+    - {name: position, value: '[x=1860,y=465]'}
+    name: questionDisplay
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: accessibleName, value: '     1000 Points'}
+    - {method: equals, name: type, value: userInterface.components.GameLabel}
+    generalProperties:
+    - {name: labelText, value: 'lbl:     1000 Points'}
+    - {name: component.class.simpleName, value: GameLabel}
+    - {name: type, value: userInterface.components.GameLabel}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '2'}
+    - {name: instanceOf, value: javax.swing.JLabel}
+    - {name: component.class.name, value: userInterface.components.GameLabel}
+    - {name: cText, value: '     1000 Points'}
+    - {name: accessibleContext.accessibleName, value: '     1000 Points'}
+    - {name: size, value: '[width=200,height=15]'}
+    - {name: accessibleName, value: '     1000 Points'}
+    - {name: position, value: '[x=1912,y=733]'}
+    name: 'lbl:     1000 Points'
+    used: true

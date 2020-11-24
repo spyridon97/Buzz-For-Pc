@@ -1,3 +1,4 @@
+Makis,0,6000
 Spiros,0,5000
 Makis,1,3760
 Albanakis,1,2611

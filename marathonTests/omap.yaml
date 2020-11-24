@@ -15,3 +15,20 @@
     - {method: equals, name: oMapClassName, value: userInterface.MainFrame}
     containerTitles: [Buzz]
     fileName: Buzz_7906462720664811131.yaml
+- !!net.sourceforge.marathon.objectmap.OMapContainer
+    containerGeneralProperties:
+    - {name: component.class.simpleName, value: JDialog}
+    - {name: title, value: Name of Player}
+    - {name: enabled, value: 'true'}
+    - {name: instanceOf, value: javax.swing.JDialog}
+    - {name: accessibleContext.accessibleName, value: Name of Player}
+    - {name: size, value: '[width=363,height=115]'}
+    - {name: oMapClassName, value: javax.swing.JOptionPane#Dialog_2_-1}
+    - {name: name, value: dialog0}
+    - {name: position, value: '[x=1094,y=681]'}
+    - {name: component.class.name, value: javax.swing.JDialog}
+    - {name: oMapClassSimpleName, value: JOptionPane#Dialog}
+    containerRecognitionProperties:
+    - {method: equals, name: oMapClassName, value: javax.swing.JOptionPane#Dialog_2_-1}
+    containerTitles: [Name of Player]
+    fileName: Name of Player_1374017492196215662.yaml

@@ -16,16 +16,7 @@ America
 Africa
 Europe
 
-Where is Côte d'Azur located?
-null
-Geography
-3
-Portugal
-Maroco
-France
-Algeria
-
-What is the currency of Cyprus
+What is the currency of Cyprus?
 CyprusCurrency.png
 Economics
 4

@@ -1,1 +1,0 @@
-<notes><passed>True</passed><type>Content: </type><assertion>lbl:Makis</assertion></notes>

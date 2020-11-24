@@ -36,7 +36,7 @@ public class QuestionsTest {
         Language language = new Language();
         Questions questions = new Questions(language);
 
-        if (questions.getTotalQuestions() != 19) {
+        if (questions.getTotalQuestions() != 18) {
             fail("Questions.getTotalQuestions doesn't return correct number of questions or file isn't read correctly!");
         }
     }
