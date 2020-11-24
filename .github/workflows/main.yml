@@ -31,3 +31,5 @@ jobs:
       uses: GabrielBB/xvfb-action@v1
       with:
         run: ./marathon/marathon -batch ./marathonTests/
+    - name: Cleanup xvfb pidx
+      uses: bcomnes/cleanup-xvfb@v1
