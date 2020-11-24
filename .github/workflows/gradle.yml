@@ -28,6 +28,6 @@ jobs:
       run: ./gradlew test
     - name: Setup headless environment
       run: |
-        Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+        sudo apt-get install xorg openbox
     - name: run-app
       run: java -jar ./build/libs/Buzz-For-Pc-1.0.0.jar
