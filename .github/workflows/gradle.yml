@@ -27,4 +27,4 @@ jobs:
     - name: Unit-Testing
       run: ./gradlew test
     - name: run-app
-      run: java -jar ./build/libs/Buzz-For-Pc-1.0.0.jar
+      run: export DISPLAY=localhost:0 && java -jar ./build/libs/Buzz-For-Pc-1.0.0.jar
