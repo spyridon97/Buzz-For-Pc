@@ -30,4 +30,4 @@ jobs:
     - name: Unit-Testing
       run: ./gradlew test
     - name: Marathon-Testing
-      run:  cd marathon && xvfb-run ./marathon -batch ../marathonTests
+      run:  cd marathon && xvfb-run -s "-screen 0 1280x1024x24" ./marathon -batch ../marathonTests
