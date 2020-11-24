@@ -1,0 +1,2 @@
+<notes><passed>True</passed><type>Content: </type><assertion>lbl:Name of second Player</assertion></notes>
+<notes><passed>True</passed><type>Content: </type><assertion>lbl:Name of second Player</assertion></notes>

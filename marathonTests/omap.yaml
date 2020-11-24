@@ -1,0 +1,17 @@
+- !!net.sourceforge.marathon.objectmap.OMapContainer
+    containerGeneralProperties:
+    - {name: component.class.simpleName, value: MainFrame}
+    - {name: title, value: Buzz}
+    - {name: enabled, value: 'true'}
+    - {name: instanceOf, value: javax.swing.JFrame}
+    - {name: accessibleContext.accessibleName, value: Buzz}
+    - {name: size, value: '[width=800,height=625]'}
+    - {name: oMapClassName, value: userInterface.MainFrame}
+    - {name: name, value: frame0}
+    - {name: position, value: '[x=1840,y=420]'}
+    - {name: component.class.name, value: userInterface.MainFrame}
+    - {name: oMapClassSimpleName, value: MainFrame}
+    containerRecognitionProperties:
+    - {method: equals, name: oMapClassName, value: userInterface.MainFrame}
+    containerTitles: [Buzz]
+    fileName: Buzz_7906462720664811131.yaml
