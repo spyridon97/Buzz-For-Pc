@@ -13,7 +13,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    env:
+      DISPLAY: ':99'
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 1.8
@@ -26,5 +27,8 @@ jobs:
       run: ./gradlew build
     - name: Unit-Testing
       run: ./gradlew test
+    - name: Setup headless environment
+      run: |
+        Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
     - name: run-app
-      run: export DISPLAY=localhost:0 && java -jar ./build/libs/Buzz-For-Pc-1.0.0.jar
+      run: java -jar ./build/libs/Buzz-For-Pc-1.0.0.jar
