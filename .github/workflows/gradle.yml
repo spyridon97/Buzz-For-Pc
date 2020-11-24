@@ -26,3 +26,5 @@ jobs:
       run: ./gradlew build
     - name: Unit-Testing
       run: ./gradlew test
+    - name: run-app
+      run: java -jar ./build/libs/Buzz-For-Pc-1.0.0.jar
