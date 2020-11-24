@@ -27,9 +27,7 @@ jobs:
       run: ./gradlew build
     - name: Unit-Testing
       run: ./gradlew test
+    - name: Install-xvfb
+      run: sudo apt-get update -y && sudo apt-get install -y xvfb
     - name: Marathon-Testing
-      uses: GabrielBB/xvfb-action@v1
-      with:
-        run: ./marathon/marathon -batch ./marathonTests/
-    - name: Cleanup xvfb pidx
-      uses: bcomnes/cleanup-xvfb@v1
+      run:  sudo xvfb-run --auto-servernum ./marathon/marathon -batch ./marathonTests/
