@@ -5,6 +5,8 @@ plugins {
 
 version '1.0.0'
 
+compileJava.options.encoding = 'UTF-8'
+
 repositories {
     mavenCentral()
 }
