@@ -51,18 +51,20 @@ public class GameEndPanel extends JPanel implements HierarchyListener {
         this.setBackground(Color.red);
         this.addHierarchyListener(this);
 
+        Language language = main.getLanguage();
+
         JPanel contents = new JPanel();
         contents.setPreferredSize(new Dimension(main.width - margin * 2, main.height - margin * 2 - 60));
         contents.setLayout(new FlowLayout(FlowLayout.LEFT, 10, 10));
 
-        topTitle = new GameLabel("Η παρτίδα τελείωσε!");
+        topTitle = new GameLabel(language.getMessage("roundEnded"));
         topTitle.setHorizontalAlignment(SwingConstants.CENTER);
         topTitle.setPreferredSize(new Dimension(main.width - margin * 2 - 2 * 10, 100));
         topTitle.setFont(fontTitle);
 
         contents.add(topTitle);
 
-        resultLabel = new GameLabel("Αποτελέσματα:");
+        resultLabel = new GameLabel(language.getMessage("results"));
         contents.add(resultLabel);
 
         resultPanel = new JPanel();
@@ -71,7 +73,7 @@ public class GameEndPanel extends JPanel implements HierarchyListener {
 
         this.add(contents);
 
-        goToMenu = new GameButton("Επιστροφή στο μενού", main.width / 2 - margin * 2, 45);
+        goToMenu = new GameButton(language.getMessage("goToMenuButton"), main.width / 2 - margin * 2, 45);
         goToMenu.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -80,7 +82,7 @@ public class GameEndPanel extends JPanel implements HierarchyListener {
         });
         this.add(goToMenu);
 
-        goToStats = new GameButton("Στατιστικά", main.width / 2 - margin, 45);
+        goToStats = new GameButton(language.getMessage("statsButton"), main.width / 2 - margin, 45);
         goToStats.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -135,7 +137,6 @@ public class GameEndPanel extends JPanel implements HierarchyListener {
             goToMenu.setText(language.getMessage("goToMenuButton"));
             goToStats.setText(language.getMessage("statsButton"));
             resultLabel.setText(language.getMessage("results") + ":");
-
         }
     }
 }

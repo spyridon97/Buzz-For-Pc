@@ -366,8 +366,8 @@ public class GameModePanel extends JPanel implements HierarchyListener, ActionLi
 
             questionDisplay.setForeground(new Color(0, 0, 0, opacityValue));
 
-            for (int i = 0; i < answerButtons.length; i++) {
-                answerButtons[i].setForeground(new Color(0, 0, 0, opacityValue));
+            for (GameAnswerButton answerButton : answerButtons) {
+                answerButton.setForeground(new Color(0, 0, 0, opacityValue));
             }
         }
     }
