@@ -30,4 +30,4 @@ jobs:
     - name: Install-xvfb
       run: sudo apt-get update -y && sudo apt-get install -y xvfb
     - name: Marathon-Testing
-      run:  xvfb-run -d ./marathon/marathon -batch ./marathonTests/
+      run:  xvfb-run --auto-servernum ./marathon/marathon -batch ./marathonTests/
