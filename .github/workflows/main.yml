@@ -28,6 +28,6 @@ jobs:
     - name: Unit-Testing
       run: ./gradlew test
     - name: Install-xvfb
-      run: sudo apt-get update && sudo apt-get install xvfb firefox libXdamage libXfixes libXinerama libXrandr avahi libjpeg xorg-x11-utils xorg-x11-server-Xorg libXext libXtst libXi twm && sudo apt-get upgrade
+      run: sudo apt-get update && sudo apt-get install xvfb firefox && sudo apt-get upgrade
     - name: Marathon-Testing
       run:  sudo xvfb-run --auto-servernum ./marathon/marathon && exit
