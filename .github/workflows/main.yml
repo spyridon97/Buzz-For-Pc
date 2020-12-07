@@ -27,7 +27,7 @@ jobs:
       run: ./gradlew build
     - name: Unit-Testing
       run: ./gradlew test
-    - name: Install-xvfb
-      run: sudo apt-get update && sudo apt-get install xvfb firefox && sudo apt-get upgrade
+    - name: Install virtual framebuffer
+      run: sudo apt-get update && sudo apt-get install xserver-xorg-video-dummy firefox && sudo apt-get upgrade
     - name: Marathon-Testing
-      run:  xvfb-run --auto-servernum ./marathon/marathon -batch ./marathonTests/
+      run: ./marathon/marathon -batch ./marathonTests/
