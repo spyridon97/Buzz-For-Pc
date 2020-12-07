@@ -1,7 +1,10 @@
 Makis,0,19000
+Makis,0,6000
 Spiros,0,5000
 Makis,0,4000
 Makis,1,3760
 Albanakis,1,2611
 Makis,2,2500
 Takis,1,2405
+Makis,1,229
+Makis,1,216

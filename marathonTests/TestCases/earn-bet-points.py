@@ -48,7 +48,11 @@ def test():
     if window('Buzz'):
         click('New Game')
         select('Name of PLayer', 'Makis')
+        click('>')
+        click('>')
         click('Start Game')
+        sleep(2)
+        click('1000')
         correctAnswer()
         assert_p('lbl:     1000 Points', 'Text', '1000 Points')
     close()

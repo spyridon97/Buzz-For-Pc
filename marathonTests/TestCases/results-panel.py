@@ -49,8 +49,9 @@ def test():
         click('New Game')
         select('Name of PLayer', 'Makis')
         click('Start Game')
-        correctAnswer()
-        assert_p('lbl:     1000 Points', 'Text', '1000 Points')
+        for x in range(6):
+            correctAnswer()
+        assert_p('lbl:6000 Points', 'Text', '6000 Points')
     close()
 
     pass
