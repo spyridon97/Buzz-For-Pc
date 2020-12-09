@@ -28,7 +28,5 @@ jobs:
       run: ./gradlew build
     - name: Unit-Testing
       run: ./gradlew test
-    - name: Test
-      run: pwd && mkdir -p ~/.java/.systemPrefs && mkdir ~/.java/.userPrefs && chmod -R 755 ~/.java && export JAVA_OPTS="-Djava.util.prefs.systemRoot=/home/user/.java -Djava.util.prefs.userRoot=/home/user/.java/.userPrefs"
     - name: GUI-Testing
-      run: xvfb-run --auto-servernum ./marathon/marathon -batch ./marathonTests/
+      run: chmod 755 ./marathon/marathon && xvfb-run --auto-servernum ./marathon/marathon -batch ./marathonTests/
