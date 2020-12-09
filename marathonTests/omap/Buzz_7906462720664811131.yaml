@@ -909,3 +909,128 @@
     - {name: position, value: '[x=1831,y=717]'}
     name: '1000'
     used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: precedingLabel, value: Name of first Player}
+    - {method: equals, name: type, value: userInterface.components.GameTextArea}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameTextArea}
+    - {name: type, value: userInterface.components.GameTextArea}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '0'}
+    - {name: instanceOf, value: javax.swing.JTextArea}
+    - {name: component.class.name, value: userInterface.components.GameTextArea}
+    - {name: size, value: '[width=320,height=25]'}
+    - {name: precedingLabel, value: Name of first Player}
+    - {name: position, value: '[x=1672,y=535]'}
+    name: Name of first Player
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: precedingLabel, value: Name of second Player}
+    - {method: equals, name: type, value: userInterface.components.GameTextArea}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameTextArea}
+    - {name: type, value: userInterface.components.GameTextArea}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '1'}
+    - {name: instanceOf, value: javax.swing.JTextArea}
+    - {name: component.class.name, value: userInterface.components.GameTextArea}
+    - {name: size, value: '[width=320,height=25]'}
+    - {name: precedingLabel, value: Name of second Player}
+    - {name: position, value: '[x=1672,y=575]'}
+    name: Name of second Player
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: 'A, S, D, F'}
+    - {method: equals, name: type, value: userInterface.components.GameRadioButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameRadioButton}
+    - {name: type, value: userInterface.components.GameRadioButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '2'}
+    - {name: instanceOf, value: javax.swing.JRadioButton}
+    - {name: actionCommand, value: 'A, S, D, F'}
+    - {name: component.class.name, value: userInterface.components.GameRadioButton}
+    - {name: buttonText, value: 'A, S, D, F'}
+    - {name: cText, value: 'A, S, D, F'}
+    - {name: accessibleContext.accessibleName, value: 'A, S, D, F'}
+    - {name: size, value: '[width=125,height=23]'}
+    - {name: accessibleName, value: 'A, S, D, F'}
+    - {name: position, value: '[x=1672,y=696]'}
+    name: A, S, D, F
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: actionCommand, value: '750'}
+    - {method: equals, name: type, value: userInterface.components.GameButton}
+    generalProperties:
+    - {name: component.class.simpleName, value: GameButton}
+    - {name: type, value: userInterface.components.GameButton}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '2'}
+    - {name: instanceOf, value: javax.swing.JButton}
+    - {name: actionCommand, value: '750'}
+    - {name: component.class.name, value: userInterface.components.GameButton}
+    - {name: buttonText, value: '750'}
+    - {name: cText, value: '750'}
+    - {name: accessibleContext.accessibleName, value: '750'}
+    - {name: size, value: '[width=80,height=40]'}
+    - {name: accessibleName, value: '750'}
+    - {name: position, value: '[x=1634,y=666]'}
+    name: '750'
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: accessibleName, value: '     750 Points'}
+    - {method: equals, name: type, value: userInterface.components.GameLabel}
+    generalProperties:
+    - {name: labelText, value: 'lbl:     750 Points'}
+    - {name: component.class.simpleName, value: GameLabel}
+    - {name: type, value: userInterface.components.GameLabel}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '5'}
+    - {name: instanceOf, value: javax.swing.JLabel}
+    - {name: component.class.name, value: userInterface.components.GameLabel}
+    - {name: cText, value: '     750 Points'}
+    - {name: accessibleContext.accessibleName, value: '     750 Points'}
+    - {name: size, value: '[width=200,height=15]'}
+    - {name: accessibleName, value: '     750 Points'}
+    - {name: position, value: '[x=1200,y=740]'}
+    name: 'lbl:     750 Points'
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: accessibleName, value: '     500 Points'}
+    - {method: equals, name: type, value: userInterface.components.GameLabel}
+    generalProperties:
+    - {name: labelText, value: 'lbl:     500 Points'}
+    - {name: component.class.simpleName, value: GameLabel}
+    - {name: type, value: userInterface.components.GameLabel}
+    - {name: enabled, value: 'true'}
+    - {name: indexOfType, value: '4'}
+    - {name: instanceOf, value: javax.swing.JLabel}
+    - {name: component.class.name, value: userInterface.components.GameLabel}
+    - {name: cText, value: '     500 Points'}
+    - {name: accessibleContext.accessibleName, value: '     500 Points'}
+    - {name: size, value: '[width=200,height=15]'}
+    - {name: accessibleName, value: '     500 Points'}
+    - {name: position, value: '[x=1583,y=773]'}
+    name: 'lbl:     500 Points'
+    used: true
+- !!net.sourceforge.marathon.objectmap.OMapComponent
+    componentRecognitionProperties:
+    - {method: equals, name: type, value: JProgressBar}
+    - {method: equals, name: indexOfType, value: '0'}
+    generalProperties:
+    - {name: component.class.simpleName, value: JProgressBar}
+    - {name: type, value: JProgressBar}
+    - {name: indexOfType, value: '0'}
+    - {name: enabled, value: 'true'}
+    - {name: instanceOf, value: javax.swing.JProgressBar}
+    - {name: component.class.name, value: javax.swing.JProgressBar}
+    - {name: size, value: '[width=350,height=35]'}
+    - {name: position, value: '[x=1880,y=708]'}
+    name: JProgressBar_0
+    used: true
