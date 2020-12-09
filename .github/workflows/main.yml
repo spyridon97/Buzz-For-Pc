@@ -21,7 +21,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Install virtual framebuffer
-      run: sudo apt-get update && sudo apt-get install xvfb xserver-xorg-video-dummy firefox && sudo apt-get upgrade
+      run: sudo apt-get update && sudo apt-get install xvfb xserver-xorg-video-dummy firefox
     - name: Set-Up Gradle
       run: gradle wrapper && chmod +x gradlew
     - name: Build
