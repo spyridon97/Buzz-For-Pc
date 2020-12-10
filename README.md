@@ -14,7 +14,7 @@ While playing, you can choose a set of key bindings. After the end of every roun
 ## Programming Language & Build System
 * Java 1.8,
 * Gradle 6.7,
-* Marathon
+* [Marathon](https://github.com/jalian-systems/Marathon)
 
 --------------------------------------------------------------------------------
 ## Structure of repository
